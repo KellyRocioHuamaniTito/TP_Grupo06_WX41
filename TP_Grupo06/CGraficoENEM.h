@@ -86,14 +86,6 @@ namespace TPGrupo06 {
 	private: System::Windows::Forms::Button^ btnMaximizar;
 
 
-
-
-
-
-
-
-
-		   /// </summary>
 		   System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
@@ -1109,25 +1101,6 @@ namespace TPGrupo06 {
 			   e->Graphics->DrawLine(linea_discontinuas, verticalDiscontinuas_inicio_j2, verticalDiscontinuas_fin_j2);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			   //jugador1
 
 
@@ -1155,33 +1128,6 @@ namespace TPGrupo06 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 					   if (Ecuacion_j1->get_TresTres() == 1)
 					   {
 						   //Arriba
@@ -1202,37 +1148,6 @@ namespace TPGrupo06 {
 
 					   e->Graphics->DrawLine(lapiz_J1, trazo_DOS_inicio_j1, trazo_DOS_final_j1);
 					   e->Graphics->DrawLine(lapiz_J1, trazo_UNO_inicio_j1, trazo_DOS_inicio_j1);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 				   }
@@ -1349,35 +1264,6 @@ namespace TPGrupo06 {
 
 					   e->Graphics->DrawLine(lapiz_J2, trazo_UNO_inicio_j2, trazo_DOS_inicio_j2);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-					   //if (Ecuacion_j2->get_UnoUno() == 1)
-					   //{
-						  // //Arriba
-						  // trazo_UNO_inicio_j2 = Point(400, 230);
-						  // trazo_UNO_final_j2 = Point(400, 230);
-					   //}
-					   //else
-					   //{
-						  // //Abajo
-						  // trazo_UNO_inicio_j2 = Point(400, 330);
-						  // trazo_UNO_final_j2 = Point(400, 330);
-					   //}
 				   }
 				   else {
 					   if (Ecuacion_j2->get_DosDos() == 1)
@@ -1451,23 +1337,23 @@ namespace TPGrupo06 {
 
 	private: System::Void btnRestaurar_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-private: System::Void btnMinimizar_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void btnMinimizar_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-private: System::Void btnCerrar_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void btnCerrar_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-private: System::Void btnMinimizar_Click_1(System::Object^ sender, System::EventArgs^ e) {
-	this->WindowState = System::Windows::Forms::FormWindowState::Minimized;
+	private: System::Void btnMinimizar_Click_1(System::Object^ sender, System::EventArgs^ e) {
+		this->WindowState = System::Windows::Forms::FormWindowState::Minimized;
 
-}
-private: System::Void btnRestaurar_Click_1(System::Object^ sender, System::EventArgs^ e) {
-	btnRestaurar->Visible = false;
-	btnMaximizar->Visible = true;
-	this->WindowState = System::Windows::Forms::FormWindowState::Normal;
-}
-private: System::Void btnCerrar_Click_1(System::Object^ sender, System::EventArgs^ e) {
-	this->Close();
-}
-private: System::Void panelCabecera_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
-}
-};
+	}
+	private: System::Void btnRestaurar_Click_1(System::Object^ sender, System::EventArgs^ e) {
+		btnRestaurar->Visible = false;
+		btnMaximizar->Visible = true;
+		this->WindowState = System::Windows::Forms::FormWindowState::Normal;
+	}
+	private: System::Void btnCerrar_Click_1(System::Object^ sender, System::EventArgs^ e) {
+		this->Close();
+	}
+	private: System::Void panelCabecera_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+	}
+	};
 }

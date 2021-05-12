@@ -99,7 +99,7 @@ public:
 			}
 			if (x == 1) {
 				determinarFilaDominada(this->listaJugadores);
-			}	
+			}
 			listaJugadores[x]->buscarMayorFilaEstrategias();
 			/******************************/
 		}

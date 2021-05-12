@@ -1,0 +1,7 @@
+C:\Users\Kelly\Documents\UNIVERSIDAD\CICLO V\Matematica computacional\Proyecto TP -MC\Programa_TP_Grupo06_WX41\TP_Grupo06\Debug\TP_Grupo06.vcxprojAssemblyReference.cache
+C:\Users\Kelly\Documents\UNIVERSIDAD\CICLO V\Matematica computacional\Proyecto TP -MC\Programa_TP_Grupo06_WX41\TP_Grupo06\Debug\TPGrupo06.CGraficoENEM.resources
+C:\Users\Kelly\Documents\UNIVERSIDAD\CICLO V\Matematica computacional\Proyecto TP -MC\Programa_TP_Grupo06_WX41\TP_Grupo06\Debug\TPGrupo06.Inicio.resources
+C:\Users\Kelly\Documents\UNIVERSIDAD\CICLO V\Matematica computacional\Proyecto TP -MC\Programa_TP_Grupo06_WX41\TP_Grupo06\Debug\TPGrupo06.Pantalla01.resources
+C:\Users\Kelly\Documents\UNIVERSIDAD\CICLO V\Matematica computacional\Proyecto TP -MC\Programa_TP_Grupo06_WX41\TP_Grupo06\Debug\TP_Grupo06.vcxproj.GenerateResource.cache
+C:\Users\Kelly\Documents\UNIVERSIDAD\CICLO V\Matematica computacional\Proyecto TP -MC\Programa_TP_Grupo06_WX41\TP_Grupo06\Debug\TP_Grupo06.exe
+C:\Users\Kelly\Documents\UNIVERSIDAD\CICLO V\Matematica computacional\Proyecto TP -MC\Programa_TP_Grupo06_WX41\TP_Grupo06\Debug\TP_Grupo06.pdb
