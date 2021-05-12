@@ -698,7 +698,6 @@ namespace TPGrupo06 {
 				   lblResultado->Visible = false;
 				   grpBoxENEM->Visible = true;
 
-
 			   }
 			   lblTipoEstrategia->Visible = true;
 

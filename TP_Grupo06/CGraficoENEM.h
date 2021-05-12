@@ -606,11 +606,6 @@ namespace TPGrupo06 {
 
 		Crear_Ecuaciones();
 		String^ tmpSTRING; string tmpString;
-
-		//______________JUGADOR 1___________________//
-
-
-
 		tmpString = Ecuacion_j1->get_Uno();
 		tmpSTRING = gcnew System::String(tmpString.c_str());
 		lblQJugador1->Text = tmpSTRING;
@@ -630,7 +625,6 @@ namespace TPGrupo06 {
 		lblFila2Jugador1->Text = tmpSTRING;
 
 
-
 		if (Ecuacion_j1->get_Uno() == "1")
 		{
 			lblQJugador1->Visible = false;
@@ -644,7 +638,6 @@ namespace TPGrupo06 {
 			tmpSTRING = gcnew System::String(tmpString.c_str());
 			lblFila3Jugador1->Text = tmpSTRING;
 		}
-
 		else
 		{
 			if (Ecuacion_j1->get_p() != 0)
