@@ -1,4 +1,4 @@
-# TP_Grupo06_WX41
+# Trabajo Parcial_Grupo06_WX41 
 # MA475_WX41_Grupo-6
 # Teoría de juegos
 
